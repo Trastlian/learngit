@@ -1,0 +1,14 @@
+$ git log                        //查看所有版本
+
+$ git add readme.txt
+$ git commit -m "xxxxxx"     //提交一个修改的文件
+
+$ git reset --hard HEAD^         //返回上一个版本
+
+$ git reflog                     //我的每一条git命令
+
+$ git checkout -- readme.txt     //丢弃工作区的修改
+
+git remote add origin https://github.com/Trastlian/learngit.git    //把文件关联到是我自己的远程库
+
+git push -u origin master        //把本地库的所有内容推送到远程库上
